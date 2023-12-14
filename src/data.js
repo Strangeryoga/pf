@@ -11,14 +11,10 @@ import {
   FiMail,
   FiMapPin,
   FiLinkedin,
+  FiTwitter,
 } from 'react-icons/fi';
 
-// companies icons
-import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
-import UpworkBrandIcon from './assets/img/brands/upwork.png';
-import FiverBrandIcon from './assets/img/brands/fiverr.png';
-import BehanceBrandIcon from './assets/img/brands/behance.png';
-import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
+
 
 // projects images
 import Project1 from './assets/img/projects/p1.webp';
@@ -33,10 +29,10 @@ import SkillImg1 from './assets/img/skills/html5.png';
 import SkillImg2 from './assets/img/skills/css3.png';
 import SkillImg3 from './assets/img/skills/js.png';
 import SkillImg4 from './assets/img/skills/reactjs.png';
-import SkillImg5 from './assets/img/skills/nextjs.png';
+import SkillImg5 from './assets/img/skills/mongo.png';
 import SkillImg6 from './assets/img/skills/nodejs.png';
 import SkillImg7 from './assets/img/skills/git.png';
-import SkillImg8 from './assets/img/skills/figma.png';
+import SkillImg8 from './assets/img/skills/java.png';
 
 // testimonial images
 import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
@@ -66,46 +62,22 @@ export const navigation = [
 // social
 export const social = [
   {
-    icon: <FiLinkedin />,
-    href: 'www.linkedin.com/in/tejas-santosh-doke-49593924a',
+    icon: <FiMail />,
+    href: 'mailto:tejasdoke4@gmail.com',
   },
   {
-    icon: <FiInstagram />,
-    href: '',
+    icon: <FiLinkedin />,
+    href: 'https://www.linkedin.com/in/tejas-santosh-doke-49593924a/',
   },
   {
     icon: <FiGithub />,
     href: 'https://github.com/Strangeryoga',
   },
   {
-    icon: <FiMail />,
-    href: 'mailto:tejasdoke4@gmail.com',
+    icon: <FiTwitter />,
+    href: 'https://twitter.com/strangeryogi',
   },
   
-];
-
-// companies
-export const brands = [
-  {
-    img: FreelancerBrandIcon,
-    href: '',
-  },
-  {
-    img: UpworkBrandIcon,
-    href: '',
-  },
-  {
-    img: FiverBrandIcon,
-    href: '',
-  },
-  {
-    img: BehanceBrandIcon,
-    href: '',
-  },
-  {
-    img: DribbbleBrandIcon,
-    href: '',
-  },
 ];
 
 // projects
@@ -114,37 +86,37 @@ export const projectsData = [
     id: '1',
     image: Project1,
     name: 'project name 1',
-    category: 'UI/UX design',
+    category: 'Web Development',
   },
   {
     id: '2',
     image: Project2,
     name: 'project name 2',
-    category: 'web development',
+    category: 'Java',
   },
   {
     id: '3',
     image: Project3,
     name: 'project name 3',
-    category: 'UI/UX design',
+    category: 'Web Development',
   },
   {
     id: '4',
     image: Project4,
     name: 'project name 4',
-    category: 'branding',
+    category: 'Web Development',
   },
   {
     id: '5',
     image: Project5,
     name: 'project name 5',
-    category: 'web development',
+    category: 'Java',
   },
   {
     id: '6',
     image: Project6,
     name: 'project name 6',
-    category: 'web development',
+    category: 'Java',
   },
 ];
 
@@ -154,14 +126,12 @@ export const projectsNav = [
     name: 'all',
   },
   {
-    name: 'UI/UX Design',
+    name: 'Web Development',
   },
   {
-    name: 'web development',
+    name: 'Java',
   },
-  {
-    name: 'branding',
-  },
+ 
 ];
 
 // skill

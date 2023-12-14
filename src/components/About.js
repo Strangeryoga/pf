@@ -1,7 +1,7 @@
 import React from 'react'
 
 // import image
-import Image from '../assets/img/about.webp'
+import Image from '../assets/img/image2.jpg'
 
 const About = () => {
   return (

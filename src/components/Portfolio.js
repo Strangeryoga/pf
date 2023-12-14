@@ -14,7 +14,7 @@ const Portfolio = () => {
                 My Latest Work
             </h2>
             <p className='subtitle'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo dolor error vero commodi voluptatibus est aperiam officiis, reprehenderit quibusdam quidem 
+            In my recent web development projects, I proficiently utilized HTML, CSS, and JavaScript for the frontend, adopting the MERN stack (MongoDB, Express.js, React, Node.js) for a dynamic user interface. For backend functionality, I employed both Java and Spring Boot, ensuring robust server-side operations. These projects showcase my versatility in combining MERN and Java technologies for comprehensive full-stack development.
             </p>
         </div>
         <Projects/>
