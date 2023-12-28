@@ -15,7 +15,7 @@ const Hero = () => {
           <div className="flex-1 flex flex-col items-center lg:items-start">
             <p className="text-cyan-500 mb-[20px] pt-6">Hey, I'm Tejas 👋</p>
             <h1 className="text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-5xl lg:heading-[1.2] font-bold md:tracking-[-2px]">
-              I Build & Design <br /> Websites
+              I Bulid & Design Websites
             </h1>
             <p className="pt-4 pb-8 md:text-1xl md:pb-12 max-w-[500px] text-lg text-center lg:text-left">
             Eager to contribute innovative solutions and collaborate in a dynamic team environment to drive digital excellence and achieve client objectives.
