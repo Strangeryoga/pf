@@ -17,12 +17,16 @@ import {
 
 
 // projects images
-import Project1 from './assets/img/projects/p1.webp';
-import Project2 from './assets/img/projects/p2.webp';
-import Project3 from './assets/img/projects/p3.webp';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+import Project1 from './assets/img/projects/Alpha.png';
+import Project2 from './assets/img/projects/SidCup.png';
+import Project3 from './assets/img/projects/PoyalEnfield.png';
+import Project4 from './assets/img/projects/Insta.png';
+import Project5 from './assets/img/projects/twogood.png';
+import Project6 from './assets/img/projects/Chess.png';
+import Project7 from './assets/img/projects/eph.png';
+import Project8 from './assets/img/projects/Cars.png';
+
+
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -85,38 +89,50 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'project name 1',
+    name: <a href="https://alpha-psi-ten.vercel.app/">Alpha By HTML5 Up</a>,
     category: 'Web Development',
   },
   {
     id: '2',
     image: Project2,
-    name: 'project name 2',
-    category: 'Java',
+    name: <a href="https://sid-cup.vercel.app/">SidCup</a>,
+    category: 'Web Development',
   },
   {
     id: '3',
     image: Project3,
-    name: 'project name 3',
+    name: <a href="https://royal-enfield-ashen.vercel.app/">RoyalEnfield</a>,
     category: 'Web Development',
   },
   {
     id: '4',
     image: Project4,
-    name: 'project name 4',
+    name: <a href="https://insta-silk.vercel.app/">Instagram Clone</a>,
     category: 'Web Development',
   },
   {
     id: '5',
     image: Project5,
-    name: 'project name 5',
-    category: 'Java',
+    name: <a href="https://two-good-delta.vercel.app/">Two Good</a>,
+    category: 'Web Development',
   },
   {
     id: '6',
     image: Project6,
-    name: 'project name 6',
-    category: 'Java',
+    name: <a href="https://chess-one-smoky.vercel.app/">Chess Game</a>,
+    category: 'Web Development',
+  },
+  {
+    id: '7',
+    image: Project7,
+    name: <a href="https://ephemeral-five.vercel.app/">Ephemeral</a>,
+    category: 'Web Development',
+  },
+  {
+    id: '8',
+    image: Project8,
+    name: <a href="https://cars-orpin.vercel.app/">Cars</a>,
+    category: 'Web Development',
   },
 ];
 
